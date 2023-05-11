@@ -1,7 +1,7 @@
-[submodule "liang-blog/themes/paper"]
-	path = liang-blog/themes/paper
+[submodule "themes/paper"]
+	path = themes/paper
 	url = https://github.com/nanxiaobei/hugo-paper
 
-[submodule "liang-blog/public"]
-	path = liang-blog/public
+[submodule "public"]
+	path = public
 	url = https://github.com/liang512/liang512.github.io.git
