@@ -6,6 +6,5 @@ aliases = ["about-me", "contact"]
 author = "Liang"
 +++
 
-This is my first blog. I've wanted to create a blog for a long time, but I didn't realize it due to laziness. In this blog, I will share and record my life using English. Hope i can keep going.
+My name is Liang Li. This is my first site. I've wanted to create a site for a long time, but I didn't realize it due to laziness. In this site, I will record my life for myself (when my memory fails me). Hope I can keep going.
 
-Well, now, I'm off to write the patent.
