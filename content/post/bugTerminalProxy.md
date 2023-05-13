@@ -3,6 +3,7 @@ title: "记录一个关于代理的小坑"
 date: 2023-05-13T14:58:50+08:00
 draft: false
 author: "Liang Li"
+Description: "耗费我好长时间555"
 ---
 
 When I running the `git push` command, I get error:

@@ -35,9 +35,12 @@ languages:
                 - name: Tags
                   url: tags/
                   weight: 10
+                - name: Friends
+                  url: friends/
+                  weight: 11
                 - name: About
                   url: about/
-                  weight: 11
+                  weight: 12
                 - name: WiKi
                   url: https://github.com/adityatelange/hugo-PaperMod/wiki/
 
@@ -206,6 +209,19 @@ markup:
         # guessSyntax: true
         # lineNos: true
         # style: monokai
+        # anchorLineNos: false
+        # codeFences: true
+        # guessSyntax: false
+        # hl_Lines: ""
+        # hl_inline: false
+        # lineAnchors: ""
+        # lineNoStart: 1
+        # lineNos: false
+        # lineNumbersInTable: true
+        # noClasses: true
+        # noHl: false
+        # style: monokai
+        # tabWidth: 4
 
 privacy:
     vimeo:
