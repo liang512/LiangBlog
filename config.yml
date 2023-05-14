@@ -124,7 +124,29 @@ params:
     ShowCodeCopyButtons: true
     ShowRssButtonInSectionTermList: true
     ShowToc: true
-    # comments: false
+    ############################
+    ## Comments
+    ############################
+    comments:
+      # Comment provider:
+      provider: "giscus"
+
+      # Which page types are commentable?
+      commentable: {page = true, post = true, docs = false, project = false, publication = true, talk = false}
+
+      # Configuration of giscus
+      giscus:
+        repo: "liang512/liang512.github.io" # Repo where the comments will live
+        repo_id: "R_kgDOJhXCNA" # Repo where the comments will live
+        category: "Announcements" # Repo where the comments will live
+        category_id: "DIC_kwDOJhXCNM4CWeCa" # Repo where the comments will live
+        mapping: "url" # How Utterances will match comment to page
+        label: "comment" # Label applied to issue by utteranc.es bot
+        theme: "preferred_color_scheme" # What theme to use
+        reactions_enabled: 0
+        input-position: "top"
+        loading: "lazy"
+
     images: ["papermod-cover.png"]
 
     profileMode:
@@ -195,8 +217,6 @@ params:
     #     minMatchCharLength: 0
     #     keys: ["title", "permalink", "summary", "content"]
 
-# Comments
-disqusShortname: "disqus_IjQ4MJ7qV1"
 
 markup:
     goldmark:
