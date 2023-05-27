@@ -174,8 +174,10 @@ params:
     socialIcons:
         - name: github
           url: "https://github.com/liang512"
-        - name: qq
-          url: ""
+        - name: email
+          url: "mailto:liliang012607@gmail.com"
+        - name: telegram
+          url: "https://liang_512.t.me"
         # - name: KoFi
         #   url: "https://ko-fi.com/adityatelange"
         # - name: Rss
