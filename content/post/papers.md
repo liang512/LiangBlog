@@ -96,4 +96,18 @@ limitations:
  identity and location 
 
 
+# TrustCom:
+## 2020
+### Efficient Revocable Attribute-Based Encryption with Hidden Policies
+  - outsourced decryption, hidden policies and revocation
+  - support revocation: - update attribute group key and re-encrypt all ciphertext
+  - security proof
+## 2021
+### White-Box Traceable Attribute-Based Encryption with Hidden Policies and Outsourced Decryption
+  - same authors for above paper 
+  - add Algorithm $Trace, Revoke$ compare with Efficient Revocable Attribute-Based Encryption with Hidden Policies
+  - no security proof
+
+
+
 [^1]: Shu, Jiangang, et al. "Proxy-free privacy-preserving task matching with efficient revocation in crowdsourcing." IEEE Transactions on Dependable and Secure Computing 18.1 (2018): 117-130.
