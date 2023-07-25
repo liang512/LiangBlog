@@ -14,8 +14,8 @@ Description: "记录最近看到的一个新的概念：Sanitizable Encryption"
 ## <cite> Sanitizable Access Control System for Secure Cloud Storage Against Malicious Data Publishers [^Susilo2021]</cite>
 [^Susilo2021]: W. Susilo, P. Jiang, J. Lai, F. Guo, G. Yang and R. H. Deng, "Sanitizable Access Control System for Secure Cloud Storage Against Malicious Data Publishers," in IEEE Transactions on Dependable and Secure Computing, vol. 19, no. 3, pp. 2138-2148, 1 May-June 2022, doi: 10.1109/TDSC.2021.3058132.
 
+   ![check](../image.png)
 1. 对以上的1，增加一个可信的Sanitizer在密文上执行check操作，检查是否嵌入了正确的访问策略，其实相当于执行了一遍ABE的解密操作，将与访问策略$M$关联的密文组件与**随机选择**的属性集合$S\in M$对应的密钥（这个密钥并不是authority生成，而是sanitizer按照密钥形式仿造的，仅为了验证）配对,通过验证则为正确的密文，此时的密文解密需要恢复出$e(g,g)^{\alpha s}$；
-   ![check](/post/sanitizable_abe/SanitizableEncryption/image-1.png)
 2. 通过上述访问策略验证后，还需考虑DO直接将加密密钥泄露给无权限的用户。可信的sanitizer重新生成一个密文(访问策略秘密值为$s\prime$)，然后将两个密文聚合在一起，此时的密文解密需要恢复出$e(g,g)^{\alpha (s+s')}$；
 
 **疑问：**
