@@ -1,9 +1,9 @@
 ---
 title: "GoodWritingSentence"
 date: 2023-05-22T09:44:22+08:00
-draft: true
+draft: false
 author: "Liang"
-description: "Some good writing sentence patterns"
+description: "论文写作积累"
 ---
 
 ## In Introduction or Related Work
@@ -20,8 +20,16 @@ description: "Some good writing sentence patterns"
 - due to
 - in order to
 - owing to
+- attribute to
+- ascribe to
 
+
+## 缩写
+w.r.t. : with reference to / with respect to / with regards to.
+i.e.: a shortening of the Latin expression id est, which translates to “**that is**”
+e.g.: for example
 
 ## 词汇
 - vanilla/conventional public-key encryption 传统公钥加密
 - common impediment 
+- bottleneck    瓶颈

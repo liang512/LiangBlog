@@ -6,7 +6,7 @@ author: "Liang Li"
 Description: "耗费我好长时间555"
 ---
 
-When I running the `git push` command, I get error:
+When I run the `git push` command, I get the error:
 ``` text {linenos=true}
 $ git push origin main 
 kex_exchange identification: Connection closed by remote host
@@ -28,7 +28,7 @@ Run the following command:
 ```
 $ curl ipinfo.io
 ```
-Cities are shown in the China. Now the problem is very clear, that is, **the terminal proxy is not turned on**.
+Cities are shown in China. Now the problem is very clear, that is, **the terminal proxy is not turned on**.
 
 If you use VPN, then the problem is most likely that you do not have a terminal proxy enabled.
 
@@ -38,7 +38,7 @@ For example, my proxy port is 7890, I run the following command:
 
     export https_proxy=http://127.0.0.1:7890 http_proxy=http://127.0.0.1:7890 all_proxy=socks5://127.0.0.1:7890
 
-If you use oh-my-zsh, you can use plugin  zsh-osx-autoproxy to automatically set the terminal proxy.
+If you use oh-my-zsh, you can use the plugin zsh-osx-autoproxy to automatically set the terminal proxy.
 ```
 git clone https://github.com/sukkaw/zsh-osx-autoproxy ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-osx-autoproxy
 
