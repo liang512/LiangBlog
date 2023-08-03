@@ -33,3 +33,4 @@ e.g.: for example
 - vanilla/conventional public-key encryption 传统公钥加密
 - common impediment 
 - bottleneck    瓶颈
+- describe  delineate   demonstrate  

@@ -109,5 +109,8 @@ limitations:
   - no security proof
 
 
+## Publicly Verifiable Inner Product Evaluation over Outsourced Data Streams under Multiple Keys
+生成Proof需要向量明文，不可行
+
 
 [^1]: Shu, Jiangang, et al. "Proxy-free privacy-preserving task matching with efficient revocation in crowdsourcing." IEEE Transactions on Dependable and Secure Computing 18.1 (2018): 117-130.
