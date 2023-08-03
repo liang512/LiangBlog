@@ -108,9 +108,12 @@ limitations:
   - add Algorithm $Trace, Revoke$ compare with Efficient Revocable Attribute-Based Encryption with Hidden Policies
   - no security proof
 
+### A Privacy-Enhanced Mobile Crowdsensing Strategy for Blockchain Empowered Internet of Medical Things
+This scheme classifies the uses by spectral clustering based on the social network. Therefore, the worker is assigned a specific task.
 
 ## Publicly Verifiable Inner Product Evaluation over Outsourced Data Streams under Multiple Keys
 生成Proof需要向量明文，不可行
+
 
 
 [^1]: Shu, Jiangang, et al. "Proxy-free privacy-preserving task matching with efficient revocation in crowdsourcing." IEEE Transactions on Dependable and Secure Computing 18.1 (2018): 117-130.
