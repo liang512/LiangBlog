@@ -6,7 +6,7 @@ author: "Liang"
 description: "论文写作积累"
 ---
 
-## In Introduction or Related Work
+## Introduction or Related Work
 
 - A long line of constructions 1, 2 operates by ...
 - There is no way to ...
@@ -15,6 +15,11 @@ description: "论文写作积累"
 - The starting point of this paper is that while the recent solutions consider and solve the bare-bones ... problem in its simplest form, there are several desirable features that they fail to achieve.
 - This makes ... inherently vulnerable to ... attacks,
 - ..., which bridges together the recent advancements of blockchain and cryptographic techniques.
+### 强调重要性 
+- it is of paramount importance to
+### 技术赋能
+- ... is a new way of viewing ... which opens up a much larger world of possibilities for ....
+- The enhanced functionality and flexibility provided by ... is very appealing for many practical applications.
 
 ## 因果
 - due to
