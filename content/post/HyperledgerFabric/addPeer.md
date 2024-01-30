@@ -1,6 +1,6 @@
 ---
 title: "Add a Peer Node to an Organization"
-date: 2023-05-13T14:58:50+08:00
+date: 2024-01-28T21:33:52+08:00
 draft: false
 author: "Liang Li"
 Description: "Add a peer node to Org1. Using the test network of Hyperledger Ledger v2.2.10"
