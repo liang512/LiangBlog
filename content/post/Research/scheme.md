@@ -55,3 +55,20 @@ Two parts:
 **public verification：**
 不能公布Bloom filter；验证要是高效的：不能比重新执行一遍Search算法消耗还多；
 1. 直接将Search算法中的中间变量公开，Public verifier只需进行乘法；同时验证了Two parts；但是，如果服务器公布错误的值，也会通过verify。存在的问题：服务器可能公布错误的值。。。。加密另一个消息并公布哈希值，然后用$e_1$解密，判断是否相等，以此来验证$e_1$是否正确。
+
+# 20240131
+**Bug**：
+1. $e(g_1^{\sigma_uA^\top U}, g_2^{y_{u,2}h/\sigma_u})=e(g_1,g_2)^{y_{u,2}hA^\top U}$ 提前将随机数$\sigma$消掉
+- The CS checks wether the following equation is holds:
+$$e(g_1,g_2)^{y_{u,2}hA^\top U}=e(g_1,g_2)^{(k-y_{u,1})hA^\top U}$$
+If the equation holds, then CS can claim $y_u=k$.
+
+2. cs没有返回全部结果
+
+**Solutions**:
+1. 扩大$k$的取值范围
+   - 使用韦达定理 $k\in\mathbb{Z^+}$
+   - 需要用户自己计算属性向量，为了抵御恶意用户申请错误的密钥，改为单机构才可以
+   - 用户撤销、外包部分解密
+  
+2. ...
