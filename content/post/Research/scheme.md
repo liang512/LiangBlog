@@ -72,3 +72,29 @@ If the equation holds, then CS can claim $y_u=k$.
    - 用户撤销、外包部分解密
   
 2. ...
+# 20240729
+
+
+Search Trapdoor: $\{t_1=\alpha_i^{r}, t_2=\alpha_i^{ry}\}$ ($\alpha_i$ is secret key)
+
+CS performs partial decryption to get $\{C'=Y_w^{sr}$, $C''=Y_w^{sry}, C_0=k'\cdot Y_w^s\}$
+
+Worker obtains task encryption key by $\frac{C_0}{C'^{\frac{1}{r}}}=\frac{k'\cdot Y_w^s}{Y_w^s}=k'$.
+
+**Public verifiability for ciphertext outsourcing decryption:**
+
+If the worker denies the output of the outsourced decryption by CS:
+
+1. The worker publishes $y$ to the blockchain for verification.
+
+2. Verifiers check the following situations:
+- If $t_1^y=t_2$ and $C'^y=C''$, then CS transforms the ciphertext correctly. 
+- If $t_1^y=t_2$ and $C'^y\neq C''$, then CS transforms the ciphertext incorrectly. 
+- If $t_1^y\neq t _2$, then the search trapdoor is invalid. 
+
+Security: 
+- $t_1$ and $t_2$ do not leak any information about $\alpha_i$.
+
+> **Error**
+> 
+> If CS directly outputs $C'=e(t_1,g), C''=e(t_2,g)$, then $C'^y=C''$ also holds. **In this case, CS did not transform the ciphertext correctly, but still passed the verification.**
