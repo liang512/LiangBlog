@@ -39,3 +39,9 @@ e.g.: for example
 - common impediment 
 - bottleneck    瓶颈
 - describe  delineate   demonstrate  
+- obliterate the privacy of encryption
+
+## Multi-authority ABE
+In this case, the single third party controls and
+monitors all secret keys. Once it is corrupted, all secret keys
+will be leaked and any ciphertext is not secure anymore.

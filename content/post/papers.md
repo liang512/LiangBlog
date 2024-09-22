@@ -129,5 +129,13 @@ This scheme classifies the uses by spectral clustering based on the social netwo
 生成Proof需要向量明文，不可行
 
 
+# SanIdea: Exploiting Secure Blockchain-Based Access Control via Sanitizable Encryption
+> TIFS'24
+
+Sanitize 后的密文没有用到，解密时直接忽略了前面Sanitize加的随机数，什么操作？Sanitize了个什么东西？
+
+将Authority的secret keys存储在区块链上？-- Introduction
+
+
 
 [^1]: Shu, Jiangang, et al. "Proxy-free privacy-preserving task matching with efficient revocation in crowdsourcing." IEEE Transactions on Dependable and Secure Computing 18.1 (2018): 117-130.
