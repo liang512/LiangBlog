@@ -111,11 +111,13 @@ params:
     description: "Theme PaperMod - https://github.com/adityatelange/hugo-PaperMod"
     author: Theme PaperMod
     # author: ["Me", "You"] # multiple authors
-
+    keywords: [Blog, Portfolio, PaperMod]
+    author: Me
     defaultTheme: auto
+    DateFormat: "January 2, 2006"
     # disableThemeToggle: true
     ShowShareButtons: true
-    ShowReadingTime: false
+    ShowReadingTime: true
     showWordCount: false
     # disableSpecial1stPost: true
     displayFullLangName: true
