@@ -70,3 +70,19 @@ User-uploaded data can be stored in IPFS.
 | :---: | :----: | :---: |
 | Hybrid storage :x: | Privacy of access policy :white_check_mark: | Privacy of user attributes :white_check_mark: |
 | Outsourced decryption :white_check_mark: | Public verification :white_check_mark: | user revocation :x: |
+
+# SanIdea: Exploiting Secure Blockchain-Based Access Control via Sanitizable Encryption
+> Peng Jiang , Member, IEEE, Qi Liu, and Liehuang Zhu , Senior Member, IEEE
+> IEEE TIFS'2024
+
+**Summary:** The authors proposed a sanitizable multi-authority attribute-based encryption scheme (sMABE). Then they proposed SanIdea by integrating the blockchain with SMABE to ensure the correctness of the secret key parts. 
+
+|   |   |
+| :---: | :----: | :---: |
+| Hybrid storage :x: | Privacy of access policy :x: | Privacy of user attributes :white_check_mark: |
+| Outsourced decryption :x: | Public verification :x: | User revocation :x: |
+| Sanitization :white_check_mark: | 
+
+Question:question:
+- The authorities store master secret keys on the blockchain. 
+- The sanitication only contains randomness process.
