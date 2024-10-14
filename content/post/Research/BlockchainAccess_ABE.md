@@ -21,6 +21,7 @@ author: "LiangLi"
 | [He2022](#He2022) | :white_check_mark: | :x: | :x: | :x: | :x: | :x: | :x: | :x: | :x: | :x: |
 | [Yan2023](#Yan2023) | :x: | :white_check_mark: | :white_check_mark: | :question: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :x: | :x: | :white_check_mark: |
 | [Zhao2023](#Zhao2023) | :white_check_mark: | :white_check_mark: | :x: | :x: | :white_check_mark: | :x: | :x: | :x: | :x: | :x: |
+| [Fan2020](#Fan2020) | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :x: | :x: | :x: | :x: | :x: |
 
 # <span id="Xiao2022">Blockchain Based Multi-Authority Fine-Grained Access Control System With Flexible Revocation</span>
 > Meiyan Xiao , Qiong Huang , Member, IEEE, Ying Miao, Shunpeng Li, and Willy Susilo , Fellow, IEEE;
@@ -95,3 +96,9 @@ Privacy of user attributes :question: DO generates attribute key
 > Concurrency and Computation: Practice and Experience 2023 (CCF C)
 
 This paper proposed revocable CP-ABE with outsourced decryption for educational resource sharing to relize fine-grained access control. The encrypted data stored on off-chain server. On the blockchain, the hash value for sharing data are recorded. 
+
+# <span id="Fan2020">A Secure and Verifiable Data Sharing Scheme Based on Blockchain in Vehicular Social Networks</span>
+> Kai Fan , Member, IEEE, Qiang Pan , Kuan Zhang , Member, IEEE, Yuhan Bai, Shili Sun , Hui Li , Member, IEEE, and Yintang Yang , Member, IEEE,
+> IEEE TRANSACTIONS ON VEHICULAR TECHNOLOGY, 2020
+
+This paper stores the access policy and hash value of data on the blockchain so that the data user can perform self-certification. The data user retrieves the access policy from the blockchain to check whether their attributes satisfy the access policy. If the check passes, they request the data from the CS. Moreover, the authors design a policy-hiding scheme. However, the policy-hiding scheme does not resist attribute guessing attacks.

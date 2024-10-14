@@ -41,6 +41,6 @@ Search 算法在不可信服务器上执行
   
   思路：对用户向量和任务向量做一个加密处理或者编码，使其处理之后不会泄漏信息且内积仍为0（将向量放到指数）；或把匹配过程计算的中间值公开
 
-# Registered ABE in data sharing scnario
+# Registered ABE in data sharing scenario
 
 # Access control encryption + FAME + hidden policy
