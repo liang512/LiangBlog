@@ -10,18 +10,20 @@ author: "LiangLi"
 > **HS**: Hybrid Storage, **OD**: Outsourced Decryption, **PP**: Privacy of Policy, 
 > **PA**: Privacy of Attributes, **VDI**: Verification of Data Integrity, **VAP**: Verification of Access Permission,
 > **PV**: Public verification, **SA**: Sanitization, **RE**: Revocation, **KS**: Keyword Search
+> **VT**: Verification of Transformation by CS
 ---
-| | HS | OD | PP | PA | VDI | VAP | PV | SA | RE | KS |
-| :---: | :----: | :---: | :----: | :---: | :---: | :----: | :---: | :----: | :---: | :---: |
-| [Xiao2022](#Xiao2022) | :white_check_mark: | :x: | :x: | :x: | :white_check_mark: | :white_check_mark: | VAP | :x: | :white_check_mark: | :x: |
-| [Zhang2022](#Zhang2022) | :white_check_mark: | :x: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | VAP | :x: | :x: | :x: |
-| [Guo2023](#Guo2023) | :white_check_mark: | :white_check_mark: | :x: | :x:| :white_check_mark: | :x: | :x: | :x: | :white_check_mark: | :x: |
-| [Li2024](#Li2024) | :x:(without CS) | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | All | :x: | :x: | :white_check_mark: |
-| [Jiang2024](#Jiang2024) | :white_check_mark: | :x: | :x: | :x: | :x: | :x: | :x: | :white_check_mark: | :x: | :x: |
-| [He2022](#He2022) | :white_check_mark: | :x: | :x: | :x: | :x: | :x: | :x: | :x: | :x: | :x: |
-| [Yan2023](#Yan2023) | :x: | :white_check_mark: | :white_check_mark: | :question: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :x: | :x: | :white_check_mark: |
-| [Zhao2023](#Zhao2023) | :white_check_mark: | :white_check_mark: | :x: | :x: | :white_check_mark: | :x: | :x: | :x: | :x: | :x: |
-| [Fan2020](#Fan2020) | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :x: | :x: | :x: | :x: | :x: |
+| | Paper | HS | OD | PP | PA | VDI | VAP | PV | SA | RE | KS |
+|:-:| :--: | :--: | :--: | :--: | :--: | :--: | :--: | :--: | :--: | :--: | :--: |
+|1| [Xiao2022](#Xiao2022) | :white_check_mark: | :x: | :x: | :x: | :white_check_mark: | :white_check_mark: | VAP | :x: | :white_check_mark: | :x: |
+|2| [Zhang2022](#Zhang2022) | :white_check_mark: | :x: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | VAP | :x: | :x: | :x: |
+|3| [Guo2023](#Guo2023) | :white_check_mark: | :white_check_mark: | :x: | :x:| :white_check_mark: | :x: | :x: | :x: | :white_check_mark: | :x: |
+|4| [Li2024](#Li2024) | :x:(without CS) | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | both | :x: | :x: | :white_check_mark: |
+|5| [Jiang2024](#Jiang2024) | :white_check_mark: | :x: | :x: | :x: | :x: | :x: | :x: | :white_check_mark: | :x: | :x: |
+|6| [He2022](#He2022) | :white_check_mark: | :x: | :x: | :x: | :x: | :x: | :x: | :x: | :x: | :x: |
+|7| [Yan2023](#Yan2023) | :x: | :white_check_mark: | :white_check_mark: | :question: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :x: | :x: | :white_check_mark: |
+|8| [Zhao2023](#Zhao2023) | :white_check_mark: | :white_check_mark: | :x: | :x: | :white_check_mark: | :x: | :x: | :x: | :x: | :x: |
+|9| [Fan2020](#Fan2020) | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :x: | :x: | :x: | :x: | :x: |
+|10| [Cui2020](#Cui2020) | :white_check_mark: | :white_check_mark: | :x: | :x: | :white_check_mark: | :white_check_mark: | both | :x: | :x: | :x: |
 
 # <span id="Xiao2022">Blockchain Based Multi-Authority Fine-Grained Access Control System With Flexible Revocation</span>
 > Meiyan Xiao , Qiong Huang , Member, IEEE, Ying Miao, Shunpeng Li, and Willy Susilo , Fellow, IEEE;
@@ -102,3 +104,9 @@ This paper proposed revocable CP-ABE with outsourced decryption for educational 
 > IEEE TRANSACTIONS ON VEHICULAR TECHNOLOGY, 2020
 
 This paper stores the access policy and hash value of data on the blockchain so that the data user can perform self-certification. The data user retrieves the access policy from the blockchain to check whether their attributes satisfy the access policy. If the check passes, they request the data from the CS. Moreover, the authors design a policy-hiding scheme. However, the policy-hiding scheme does not resist attribute guessing attacks.
+
+# <span id="Cui2020"> Pay as You Decrypt: Decryption Outsourcing for Functional Encryption Using Blockchain </span>
+> Hui Cui , Zhiguo Wan , Xinlei Wei, Surya Nepal ,and Xun Yi
+> TIFS'2020
+
+This paper proposed a functional encryption scheme with payable outsourced decryption, which allows anybody to check the correctness of the answer for the outsourcing computation task provided by an untrusted third party. The verification algorithm is executed by the smart contract. However, the verification algorithm needs to re-execute decrypt algorithm. This doesn't make sense

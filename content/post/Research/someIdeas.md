@@ -44,3 +44,4 @@ Search 算法在不可信服务器上执行
 # Registered ABE in data sharing scenario
 
 # Access control encryption + FAME + hidden policy
+动机：医生通过公共云存储将文件分享给商人，将加密文件的访问策略析取商人。
