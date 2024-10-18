@@ -24,6 +24,13 @@ author: "LiangLi"
 |8| [Zhao2023](#Zhao2023) | :white_check_mark: | :white_check_mark: | :x: | :x: | :white_check_mark: | :x: | :x: | :x: | :x: | :x: |
 |9| [Fan2020](#Fan2020) | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :x: | :x: | :x: | :x: | :x: |
 |10| [Cui2020](#Cui2020) | :white_check_mark: | :white_check_mark: | :x: | :x: | :white_check_mark: | :white_check_mark: | both | :x: | :x: | :x: |
+|11| [Yang2023](#Yang2023) | :white_check_mark: | :white_check_mark: | :x: | :x: | :white_check_mark: | :white_check_mark: | :x: | :x: | :white_check_mark: | :x: |
+|12| [Gan2023](#Gan2023) | :white_check_mark: | :x: | :x: | :x: | :white_check_mark: | :x: | :x: | :x: | :x: | :x: |
+|13| [Hou2024](#Hou2024) | :white_check_mark: | :white_check_mark: | :x: | :x: | :white_check_mark: | :white_check_mark: | both | :x: | :x: | :x: |
+|14| [Jiang2022](#Jiang2022) | :white_check_mark: | :white_check_mark: | :x: | :x: | :white_check_mark: | :x: | :x: | :x: | :white_check_mark: | :x: |
+|14| [Guo2023](#Guo2023) | :white_check_mark: | :white_check_mark: | :x: | :x: | :x: | :x: | :x: | :x: | :white_check_mark: | :x: |
+
+
 
 # <span id="Xiao2022">Blockchain Based Multi-Authority Fine-Grained Access Control System With Flexible Revocation</span>
 > Meiyan Xiao , Qiong Huang , Member, IEEE, Ying Miao, Shunpeng Li, and Willy Susilo , Fellow, IEEE;
@@ -110,3 +117,35 @@ This paper stores the access policy and hash value of data on the blockchain so 
 > TIFS'2020
 
 This paper proposed a functional encryption scheme with payable outsourced decryption, which allows anybody to check the correctness of the answer for the outsourcing computation task provided by an untrusted third party. The verification algorithm is executed by the smart contract. However, the verification algorithm needs to re-execute decrypt algorithm. This doesn't make sense
+
+# <span id="Yang2023"> Blockchain-based multi-authority revocable data sharing scheme in smart grid </span>
+> Xiao-Dong Yang, Ze-Fan Liao, Bin Shu and Ai-Jia Chen
+> Mathematical Biosciences and Engineering, 2023
+
+They utilized the multi-authority online/offline ABE with user revocation and blockchain to achieve fine-grained data sharing. The hash value of data is stored on the blockchain for verification of decryption results.
+
+# <span id="Gan2023">Fine-grained Data Rights Governance in Blockchain-based Cloud-edge Communications</span>
+> Weilin Gan, Mingyang Zhao, Hongchen Guo, Chuan Zhang, Jianan Hong, and Liehuang Zhu
+> IEEE GLOBECOM'23
+
+This paper allows the data user to edit the ciphertext by employing chameleon hashes trapdoors.
+
+# <span id="Hou2024">Blockchain-based efficient verifiable outsourced attribute-based encryption in cloud</span>
+> Zesen Hou, Jianting Ning, Xinyi Huang, Shengmin Xu, Leo Yu Zhang
+> Computer Standards & Interfaces, 2024
+
+This paper based on ["Pay as You Decrypt"](#Cui2020) and places the generation of the transformation key in KGC, reducing user-side overhead. 
+
+# <span id="Jiang2022">Attribute-Based Encryption With Blockchain Protection Scheme for Electronic Health Records</span>
+> Yu Jiang , Xiaolong Xu , and Fu Xiao
+> IEEE TRANSACTIONS ON NETWORK AND SERVICE MANAGEMENT, 2022
+
+By storing the uploaded encrypted data in the blockchain in the form of transaction records, the integrity of the data is guaranteed, which facilitates the traceability of EHR generation.
+It supports attribute revocation.
+
+# <span id="Guo2023">Revocable Blockchain-Aided Attribute-Based Encryption With Escrow-Free in Cloud Storage</span>
+> Yuyan Guo , Zhenhua Lu , Hui Ge , and Jiguo Li
+> IEEE TRANSACTIONS ON CLOUD COMPUTING,  2023
+
+This paper proposed a revocable blockchain-aided ABE with escrow-free (BC-ABE-EF) system. The keys are generated between the blockchain and the data
+user through a secure key issuing protocol, and the blockchain cannot obtain the user’s full key alone.
