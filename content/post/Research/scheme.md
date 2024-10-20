@@ -77,7 +77,7 @@ If the equation holds, then CS can claim $y_u=k$.
 
 Search Trapdoor: $\{t_1=\alpha_i^{r}, t_2=\alpha_i^{ry}\}$ ($\alpha_i$ is secret key)
 
-CS performs partial decryption to get $\{C'=Y_w^{sr}$, $C''=Y_w^{sry}, C_0=k'\cdot Y_w^s\}$
+CS performs partial decryption to get $\{C'=Y_w^{sr}, $C''=Y_w^{sry}, C_0=k'\cdot Y_w^s\}$
 
 Worker obtains task encryption key by $\frac{C_0}{C'^{\frac{1}{r}}}=\frac{k'\cdot Y_w^s}{Y_w^s}=k'$.
 
@@ -98,3 +98,7 @@ Security:
 > **Error**
 > 
 > If CS directly outputs $C'=e(t_1,g), C''=e(t_2,g)$, then $C'^y=C''$ also holds. **In this case, CS did not transform the ciphertext correctly, but still passed the verification.**
+
+# 20241020
+- 让sanitizer去审查DO发送的密文是否正确（密文中的访问策略是否和他声明的一样），需要将访问策略暴露给sanitizer
+- 将访问策略以明文的方式输入TEE，之后只输出final ciphertext进行隐藏访问策略，敌手不能将访问策略和final ciphertext联系起来
