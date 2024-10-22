@@ -102,3 +102,4 @@ Security:
 # 20241020
 - 让sanitizer去审查DO发送的密文是否正确（密文中的访问策略是否和他声明的一样），需要将访问策略暴露给sanitizer
 - 将访问策略以明文的方式输入TEE，之后只输出final ciphertext进行隐藏访问策略，敌手不能将访问策略和final ciphertext联系起来
+- ZK

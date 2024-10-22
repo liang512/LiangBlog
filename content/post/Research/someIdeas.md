@@ -45,3 +45,7 @@ Search 算法在不可信服务器上执行
 
 # Access control encryption + FAME + hidden policy
 动机：医生通过公共云存储将文件分享给商人，将加密文件的访问策略析取商人。
+
+# Matchmaking encryption (ME)
+检测属性策略和关键字策略，相比于ABKS有什么优势？
+ABKS和Dual-policy ABE (DPABE) 相似，那ME和DPABE有什么区别？
