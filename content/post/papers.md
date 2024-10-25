@@ -25,6 +25,20 @@ description: "论文阅读记录"
 
 # ABE
 
+## Attribute-Based Encryption with Publicly Verifiable Outsourced Decryption
+Transform算法输出的不是ElGamal形式的密文，而是把中间计算过程中的配对值输出。
+验证者通过 sampling technique 随机选择pairing results进行验证。
+Achieving public verification by combining sampling technique and game theory.
+
+## Multi-Keyword Searchable and Verifiable Attribute-Based Encryption Over Cloud Data
+只支持合取的关键字查询；需要公布一个关键字集合之间的映射；使用签名验证密文的complete；
+是否可以做多关键字的检索 without bilinear pairing ?
+
+## TrustAccess: A Trustworthy Secure Ciphertext-Policy and Attribute Hiding Access Control Scheme based on Blockchain
+对向量使用ElGamal算法加密，利用同态性质验证向量内积为0；
+属性向量$v$中有有一维是1，那么$h^r$就暴露了，别的$v$是否就能求出？
+Access policy使用polynomial编码 -> hidden policy
+
 ## Registered Attribute-Based Encryption (RABE)
 size of CRS quadratic in L
 time of registration linear in L----slow 
@@ -113,6 +127,14 @@ This scheme classifies the uses by spectral clustering based on the social netwo
 
 ## Publicly Verifiable Inner Product Evaluation over Outsourced Data Streams under Multiple Keys
 生成Proof需要向量明文，不可行
+
+
+# SanIdea: Exploiting Secure Blockchain-Based Access Control via Sanitizable Encryption
+> TIFS'24
+
+Sanitize 后的密文没有用到，解密时直接忽略了前面Sanitize加的随机数，什么操作？Sanitize了个什么东西？
+
+将Authority的secret keys存储在区块链上？-- Introduction
 
 
 
