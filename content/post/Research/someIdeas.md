@@ -11,7 +11,6 @@ author: "Liang"
 # Our Scheme
 
 - In our scheme, when the attributes of the user change, he does not need to re-request attribute secret keys for each authority by using a secret sharing scheme. While DIPE scheme needs to generate N new secret key when the user's attribute changes.
-- 对必需属性进行确定性的属性加密检测后，对可选属性集采用相似度匹配
 
 # Multi-keyword Search
 
