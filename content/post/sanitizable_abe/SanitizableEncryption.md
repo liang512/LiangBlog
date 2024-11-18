@@ -54,6 +54,9 @@ Access control encryption based on KP-ABE.
 # Bilateral Control for Secure Communication against Replay Attack in ORAN-based Vehicular Networks
 checking 公式有错误？
 
+# Fine-Grained and Sanitizable Access Control Service for IoT-Based Digital Subscriptions
+Sanitization步骤中生成了一个临时密钥对访问策略，执行解密操作
+
 # Conclusion 
 
 - Check的本质思想就是执行了一遍解密操作，并未将消息解密出来

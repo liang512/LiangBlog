@@ -33,6 +33,7 @@ description: "论文写作积累"
 w.r.t. : with reference to / with respect to / with regards to.
 i.e.: a shortening of the Latin expression id est, which translates to “**that is**”
 e.g.: for example
+Wlog.: Without loss of generality
 
 ## 词汇
 - vanilla/conventional public-key encryption 传统公钥加密
