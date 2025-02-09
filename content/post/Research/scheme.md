@@ -103,3 +103,23 @@ Security:
 - 让sanitizer去审查DO发送的密文是否正确（密文中的访问策略是否和他声明的一样），需要将访问策略暴露给sanitizer
 - 将访问策略以明文的方式输入TEE，之后只输出final ciphertext进行隐藏访问策略，敌手不能将访问策略和final ciphertext联系起来
 - ZK
+
+
+# V-PEAKS:
+## Keyword Guessing Attacks：
+### Constructing PEKS schemes secure against keyword guessing attacks is possible?
+给出KGA攻击的定义
+
+遍历关键字集合生成密文，测试Trapdoor中的关键字
+
+### An Efficient Public-Key Searchable Encryption Scheme Secure against Inside Keyword Guessing Attacks
+Public-key Authenticated Encryption with Keyword Search.
+
+加密需要输入接受者的公钥，相当于一对一加密
+
+### Practical Attribute-Based Multi-Keyword Ranked Search Scheme in Cloud Computing
+双服务器，搜索算法分为两个，需要输入服务器私钥
+
+### Hidden policy ciphertext-policy attribute-based encryption with keyword search against keyword guessing attack
+
+

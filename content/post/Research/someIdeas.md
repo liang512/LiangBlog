@@ -79,7 +79,6 @@ Attribute-based outsourced ACE (AOACE) scheme
 - ME中的DO如果是恶意的，DO给密文绑定一个错误的访问策略...
 1. 有人做过吗？
 2. 有没有应用场景？是否贴切生活？
-3. 
 
 ## Privacy-Preserving Bilateral Fine-Grained Access Control for Cloud-Enabled Industrial IoT Healthcare
 > IEEE TRANSACTIONS ON INDUSTRIAL INFORMATICS, VOL. 18, NO. 9, SEPTEMBER 2022

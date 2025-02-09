@@ -54,8 +54,19 @@ Access control encryption based on KP-ABE.
 # Bilateral Control for Secure Communication against Replay Attack in ORAN-based Vehicular Networks
 checking 公式有错误？
 
-# Fine-Grained and Sanitizable Access Control Service for IoT-Based Digital Subscriptions
-Sanitization步骤中生成了一个临时密钥对访问策略，执行解密操作
+# Attribute-Based Bilateral Access Control with Sanitization and Trust Management for IIoT
+针对MABE
+Sanitizer不检查密文中的访问策略是否正确，加入了trust management，维护DO的trust value，但DO的trust value小于一个阈值时，Sanitizer将不广播该密文。
+
+# Purified Authorization Service With Encrypted Message Moderation
+
+** The sanitization operation based on a fixed computation method is indeed a re-randomization over the ciphertext. **
+
+本文不针对ABE或者IBE，sanitizable public key encryption
+
+Check算法检测密文是否超过了过期时间：密文中有一个时间戳，加密时生成签名，check算法先验证签名，再获取当前时间戳，检测时间是否超过了expiry
+
+
 
 # Conclusion 
 
