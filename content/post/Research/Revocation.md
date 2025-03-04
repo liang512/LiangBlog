@@ -93,3 +93,6 @@ Zhiqian Xu, Keith M. Martin, International Conference on Trust, Security and Pri
 
 
 # 考虑更多sender恶意的情况？
+
+backward security：保护之前加密的密文，即用户无法访问他加入系统之前的密文。
+forward security：保护之后加密的密文，即被撤销的用户无法访问之后的密文。
