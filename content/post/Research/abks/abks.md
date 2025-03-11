@@ -75,7 +75,7 @@ description: 探讨ABKS的实现方式
 ## Attribute-Based Hybrid Boolean Keyword Search over Outsourced Encrypted Data
     TDSC'18
 
-**支持布尔查询**、不保护访问策略、实际上不能抵御 KGA、双策略、无解密、支持数值比较
+**支持布尔查询**、不保护访问策略、实际上不能抵御 KGA、双策略、无解密
 
 在实验部分和下一篇文章进行了对比
 
